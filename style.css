@@ -9,34 +9,53 @@
     --cor6: hsl(216, 12%, 8%);
 }
 
-body {
-    background-color: var(--cor6);
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  div#all {
-    background-color: var(--cor2);
-    text-align: center;
+/*
+main{
+    margin: auto;
+    margin-top: -90px;
+}
+
+div#conteúdo{
     width: 600px;
-    height: 400px;
-  }
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+}
+*/
+
+body {
+  background-color: var(--cor6);
+}
+  
+main{
+  margin: auto;
+  margin-top: 160px;
+}
+  
+div#all {
+  display: block;
+  background-color: var(--cor2);
+  width: 600px;
+  height: 490px;
+  margin: auto;
+  border-radius: 15px;
+}
   
 
 div#content{
-     
+  margin: auto;
+  text-align: center;
+  width: 340px;
+  height: 310px;
 }
 
 div#numbers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.number{
-    margin-right: 10px;
-    
+  margin-right: 10px;
 }
