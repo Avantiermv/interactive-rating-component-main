@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: hsl(25, 97%, 53%);
+    --cor2: hsl(0, 0%, 100%);
+    --co3: hsl(217, 12%, 63%);
+    --cor4: hsl(216, 12%, 54%);
+    --cor5: hsl(213, 19%, 18%);
+    --cor6: hsl(216, 12%, 8%);
+}
+
+body {
+    background-color: var(--cor6);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  div#all {
+    background-color: var(--cor2);
+    text-align: center;
+    width: 600px;
+    height: 400px;
+  }
+  
+
+div#content{
+     
+}
+
+div#numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.number{
+    margin-right: 10px;
+    
+}
