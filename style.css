@@ -45,6 +45,7 @@ div#all {
 
 div#content{
   margin: auto;
+  padding: 20px;
   text-align: center;
   width: 340px;
   height: 310px;
