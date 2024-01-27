@@ -28,7 +28,7 @@ main{
 }
   
 div#all {
-  display: none;
+  display: block;
   background-color: var(--cor5);
   width: 600px;
   height: 490px;
@@ -123,9 +123,9 @@ section{
 }
 
 div#thanks{
-  display: block;
+  display: none;
   text-align: center;
-  margin: 25px;
+  margin: 35px;
 }
 
 div#thanks > div#imgcel{
