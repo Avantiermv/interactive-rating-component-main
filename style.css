@@ -45,12 +45,12 @@ div#content{
   height: 245px;
 }
 
-div#content > h1{
+ h1{
   color: var(--cor2);
   font-family: var(--font1);
 }
 
-div#content > p{
+ p{
   color: var(--cor3);
   font-family: var(--font2);
 }
@@ -114,11 +114,37 @@ button:hover{
   transition: 0.3s;
 }
 
-div#thanks{
-  display: block;
+section{
   background-color: var(--cor5);
   width: 600px;
   height: 490px;
   margin: auto;
   border-radius: 15px;
+}
+
+div#thanks{
+  display: block;
+  text-align: center;
+  margin: 25px;
+}
+
+div#thanks > div#imgcel{
+  padding: 20px;
+  margin: 20px;
+}
+
+div#thanks > div#numberselection{
+  margin: auto;
+  width: 220px;
+  height: 35px;
+  background-color: hsl(213, 17%, 28%);
+  color: var(--cor1);
+  border-radius: 30px;
+}
+
+div#thanks > div#numberselection > p{
+  color: var(--cor1);
+  padding: 7px;
+  text-align: center;
+  margin: auto;
 }
