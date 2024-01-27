@@ -17,20 +17,7 @@
     --font2: 'Open Sans', sans-serif;
 }
 
-/*
-main{
-    margin: auto;
-    margin-top: -90px;
-}
 
-div#conteúdo{
-    width: 600px;
-    height: 550px;
-    margin: auto;
-    border-radius: 15px;
-    background-color: white;
-}
-*/
 
 body {
   background-color: var(--cor6);
