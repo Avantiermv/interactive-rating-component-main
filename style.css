@@ -150,15 +150,21 @@ div#thanks > div#numberselection > p{
   margin: auto;
 }
 
+a{
+  font-style: none;
+  color: var(--cor1);
+}
+
 @media (max-width: 600px){
 
   section{
-    width: 350px;
-    height: 450px;
+    margin: auto;
+    width: 330px;
+    height: 430px;
   }
 
   div#all{
-    width: 350px;
+    width: 330px;
     height: 430px;
   }
 
