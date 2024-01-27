@@ -26,6 +26,14 @@ main{
   margin: auto;
   margin-top: 160px;
 }
+
+section{
+  background-color: var(--cor5);
+  width: 600px;
+  height: 490px;
+  margin: auto;
+  border-radius: 15px;
+}
   
 div#all {
   display: block;
@@ -114,13 +122,6 @@ button:hover{
   transition: 0.3s;
 }
 
-section{
-  background-color: var(--cor5);
-  width: 600px;
-  height: 490px;
-  margin: auto;
-  border-radius: 15px;
-}
 
 div#thanks{
   display: none;
@@ -147,4 +148,32 @@ div#thanks > div#numberselection > p{
   padding: 7px;
   text-align: center;
   margin: auto;
+}
+
+@media (max-width: 600px){
+
+  section{
+    width: 350px;
+    height: 450px;
+  }
+
+  div#all{
+    width: 350px;
+    height: 430px;
+  }
+
+  div#content{
+    width: 290px;
+    height: 220px;
+  }
+
+  div.number{
+    width: 50px;
+    height: 50px;
+  }
+
+  button{
+    width: 190px;
+    height: 40px;
+  }
 }

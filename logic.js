@@ -186,7 +186,15 @@ function pressionar5(){
 
 
 function pressionar(){
-   tudo.style.display = 'none';
-   thanks.style.display = 'block';
-   textoselection.innerHTML = 'RAPAZ ELE TÀ SEM ZAP!'
+    let selectedNumber = num1Value + 2*num2Value + 3*num3Value + 4*num4Value + 5*num5Value;
+    let paragrafo = document.getElementById('para')
+
+    tudo.style.display = 'none';        
+    thanks.style.display = 'block';
+    textoselection.innerHTML = `<p>You selected ${selectedNumber} out of 5</p>`;
+
+    textoselection.style.padding = '7px';
+    
+   
+
 }
