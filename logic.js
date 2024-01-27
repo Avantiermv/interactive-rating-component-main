@@ -1,4 +1,5 @@
 var tudo = document.getElementById('all');
+var thanks = document.getElementById('thanks');
 var num1 = document.getElementById('number1');
 var num2 = document.getElementById('number2');
 var num3 = document.getElementById('number3');
@@ -184,5 +185,6 @@ function pressionar5(){
 
 
 function pressionar(){
-   
+   tudo.style.display = 'none';
+   thanks.style.display = 'block';
 }

@@ -28,7 +28,7 @@ main{
 }
   
 div#all {
-  display: block;
+  display: none;
   background-color: var(--cor5);
   width: 600px;
   height: 490px;
@@ -115,5 +115,10 @@ button:hover{
 }
 
 div#thanks{
-  display: none;
+  display: block;
+  background-color: var(--cor5);
+  width: 600px;
+  height: 490px;
+  margin: auto;
+  border-radius: 15px;
 }
