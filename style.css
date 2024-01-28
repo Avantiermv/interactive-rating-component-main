@@ -151,8 +151,12 @@ div#thanks > div#numberselection > p{
 }
 
 a{
-  font-style: none;
+  text-decoration: none;
   color: var(--cor1);
+}
+
+footer{
+  text-align: center;
 }
 
 @media (max-width: 600px){
